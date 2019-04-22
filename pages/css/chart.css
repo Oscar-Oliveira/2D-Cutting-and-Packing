@@ -1,0 +1,170 @@
+html,
+body {
+  overflow: auto;
+}
+
+#chart {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+svg {
+  font: 12px arial;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #FFF;
+}
+
+.inner_node {
+  font: 14px arial;
+}
+
+.outer_node {
+  font: 18px arial;
+}
+
+.inner_node rect {
+  pointer-events: all;
+  fill: #fff;
+  stroke: #000
+}
+
+.inner_node rect.highlight,
+.outer_node circle.highlight {
+  stroke: #000;
+  fill: #d0d0d0;
+  stroke-width: 1px;
+}
+
+.outer_node circle {
+  stroke: #000;
+  stroke-width: 1px;
+  pointer-events: all;
+}
+
+.link {
+  stroke: #000;
+  stroke-opacity: .1;
+  fill: none;
+  pointer-events: none;
+  stroke-width: 1px;
+}
+
+.link--source,
+.link.highlight,
+.link--target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.link--source {
+  stroke: #000;
+}
+
+.link--target {
+  stroke: #FF0000;
+}
+
+.outer_node:hover {
+  cursor: pointer;
+}
+
+.node:hover,
+.node--source,
+.node--target {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.article {
+  fill: #000;
+}
+
+.node circle {
+  fill: #999;
+}
+
+#mydiv {
+  padding: 5px;
+  left: 5px;
+  top: 5px;
+  position: fixed;
+  z-index: 10;
+  color: #444;
+  background: #FFF;
+  box-shadow: 3px 2px 5px #888888;
+  border: 1px solid #333;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+
+#articleref {
+  font-size: 20px;
+}
+
+#comparesWith,
+#comparedBy {
+  font-size: 10px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.articleBox {
+  margin: 5px;
+  padding: 3px;
+  float: left;
+  background: #FFF;
+  box-shadow: 3px 2px 5px #888888;
+  border: 1px solid #333;
+  border-radius: 3px 3px 3px 3px;
+  font-size: 10px;
+  color: #000;
+}
+
+.label {
+  margin: 5px;
+  padding: 3px;
+  background: #FFF;
+  box-shadow: 3px 2px 5px #888888;
+  border: 1px solid #333;
+  border-radius: 3px 3px 3px 3px;
+  font-size: 10px;
+  color: #000;
+}
+
+#leftPanel {
+  background-color: #c0c0c0;
+  border: 0px;
+  width: 200px;
+  height: 100vh;
+  float: left;
+  text-align: center;
+}
+
+#panelContent {
+  margin: 5px;
+  position: absolute;
+  width: 190px;
+  color: #e1f2fe;
+  text-align: left;
+  overflow-y: auto;
+}
+
+#rightPanel {
+  margin-left: 200px;
+}
+
+#svgx {
+  width: 100%;
+  height: 100vh;
+  background: #FFF;
+}
+
+#XXX {
+  background: #FFF;
+}

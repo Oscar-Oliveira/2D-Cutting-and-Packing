@@ -1,0 +1,74 @@
+html,
+body {
+  overflow: auto;
+}
+
+.articleBox {
+  margin: 5px;
+  padding: 3px;
+  float: left;
+  background: #FFF;
+  box-shadow: 3px 2px 5px #888888;
+  border: 1px solid #333;
+  border-radius: 3px 3px 3px 3px;
+  font-size: 10px;
+  color: #000;
+  opacity: 0.5;
+}
+
+.articleBox>a:link,
+.articleBox>a:visited,
+.articleBox>a:hover,
+.articleBox>a:active {
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.title {
+  color: #FFF;
+}
+
+.label {
+  margin: 1px;
+  padding: 3px;
+  background: #FFF;
+  border: 1px solid #000;
+  border-radius: 3px 3px 3px 3px;
+  font-size: 10px;
+  color: #000;
+  float: left;
+}
+
+#leftPanel {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #495570;
+  top: 0px;
+}
+
+#leftWrapperl {
+  width: 190px;
+  padding: 5px;
+}
+
+#panelContent {
+  padding: 5px;
+  width: 170px;
+  color: #e1f2fe;
+}
+
+#rightPanel {
+  margin: 0px;
+  padding: 5px;
+  overflow-y: auto;
+  position: fixed;
+  left: 200px;
+  top: 0;
+  height: 100vh;
+}
