@@ -258,7 +258,7 @@ var articles110 = [
     ["Alvelos et al. (2009)", "Charalambous and Fleszar (2011)", "Lodi et al. (1999a)", "Polyakovsky and M'Hallah (2009)"]
   ],
 
-  ["Furini and Malaguti (2013)", "2013", "http://doi.org/10.1016/j.cor.2013.02.026", "Fleszar, K.: Three insertion heuristics and a justification improvement heuristic for two-dimensional bin packing with guillotine cuts. Comput. Oper. Res. 40, 463–474 (2013).",
+  ["Furini and Malaguti (2013)", "2013", "http://doi.org/10.1016/j.cor.2013.02.026", "Furini, F. & Malaguti, E. Models for the two-dimensional two-stage cutting stock problem with multiple stock size. Comput. Oper. Res. 40, 1953–1962 (2013).",
     [ CSP, Guillotine, _2Staged, Oriented, Constrained ],
     ["CGCUT", "CHL", "FHZ", "HADCHR", "GCUT", "HIFI1997b", "OF", "STS", "WANG"],
     []
