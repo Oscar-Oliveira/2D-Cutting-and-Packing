@@ -178,7 +178,7 @@ var articles090 = [
     []
   ],
 
-  ["Hadjiconstantinou and Christofides (1995)", "1995", "http://doi.org/10.1016/0377-2217(93)E0277-5", "Christofides, N., Hadjiconstantinou, E.: An exact algorithm for orthogonal 2-D cutting problems using guillotine cuts. Eur. J. Oper. Res. 83, 21–38 (1995).",
+  ["Hadjiconstantinou and Christofides (1995)", "1995", "http://doi.org/10.1016/0377-2217(93)E0278-6", "Hadjiconstantinou, E. & Christofides, N. An exact algorithm for general, orthogonal, two-dimensional knapsack problems. Eur. J. Oper. Res. 83, 39–56 (1995).",
     [ KP, NonGuillotine, Constrained, Oriented ],
     ["NGCUT", "HADCHR"],
     []
