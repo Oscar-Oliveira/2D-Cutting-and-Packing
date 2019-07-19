@@ -494,8 +494,8 @@ var articles110 = [
     []
   ],
 
-  ["Côté and Iori (2018)", "2018", "https://doi.org/10.1287/ijoc.2018.0806", "Côté, J., Iori, M.: The Meet-in-the-Middle Principle for Cutting and Packing Problems. (2016).",
-    [ PP, KP, NonGuillotine ],
+  ["Côté and Iori (2018)", "2018", "https://doi.org/10.1287/ijoc.2018.0806", "Côté, J. F. & Iori, M. The meet-in-the-middle principle for cutting and packing problems. INFORMS J. Comput. 30, 646–661 (2018).",
+    [ CSP, BPP, NonGuillotine ],
     ["CGCUT", "GCUT", "NGCUT"],
     []
   ],
